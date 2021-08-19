@@ -43,4 +43,11 @@ is: ``` /usr/share/shadpkg/package-name ``` Be sure that the package-name is the
 ### Exec
 All executables stored under this directory will be transfered to ``` /usr/bin ``` folder so you don't have it can be run from any folder.
 
+### Install your SPKG
+Once you are done, select the two folder and your meta.txt, right-click and click ```Compress...```. Specify a name and compress it as a zip. Right-click and rename it to have a .spkg extension instead of .zip. Once that's completed, open terminal in the folder you created your spkg and run the following command: (Be sure to replace packagename with your package's filename)
+```
+shadpkg install packagename.spkg
+```
+Then you should be able to run the files that you put in the ```exec``` in any directory you like!
+
 ##### ShadPKG was made by ShadowNightX
