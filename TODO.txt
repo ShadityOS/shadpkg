@@ -1,0 +1,3 @@
+TODO: (Future) Add windows support
+TODO: Add repository support
+TODO: Add more descriptive error messages
