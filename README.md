@@ -7,6 +7,10 @@ Go to the <a href="https://github.com/ShadowNightX/shadpkg/releases">releases pa
 ```
 sudo python3 setup.py
 ```
+As of ```v0.1.1``` you now have the ability to uninstall ShadPKG:
+```
+sudo python3 uninstall.py
+```
 ##### NOTE: It is required that you run it in python3 and with sudo or else the setup will fail. 
 <br> Once the setup is complete you should be able to access it by running ``` shadpkg ``` in terminal.
 
