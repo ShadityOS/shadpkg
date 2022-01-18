@@ -45,7 +45,7 @@ be any kind of file that you like. Your package can also use this space to save 
 is: ``` /usr/share/shadpkg/package-name ``` Be sure that the package-name is the same as in your meta.txt. The meta.txt file is also copied to the libs folder for your package.
 
 ### Exec
-All executables stored under this directory will be transfered to ``` /usr/bin ``` folder so you don't have it can be run from any folder.
+All executables stored under this directory will be transfered to ``` /usr/bin ``` folder so it can be run from any folder.
 
 ### Install your SPKG
 Once you are done, select the two folder and your meta.txt, right-click and click ```Compress...```. Specify a name and compress it as a zip. Right-click and rename it to have a .spkg extension instead of .zip. Once that's completed, open terminal in the folder you created your spkg and run the following command: (Be sure to replace packagename with your package's filename)
