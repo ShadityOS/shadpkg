@@ -54,4 +54,4 @@ shadpkg install packagename.spkg
 ```
 Then you should be able to run the files that you put in the ```exec``` in any directory you like!
 
-##### ShadPKG was made by ShadowNightX
+##### ShadPKG was made by ShadityZ
